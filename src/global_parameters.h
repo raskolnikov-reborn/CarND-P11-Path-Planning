@@ -30,7 +30,7 @@ const float speed_limit_mps = 21.5;
 const float transverse_speed_limit = 1.0;
 
 // Simulation lookahead time
-const float look_ahead_time_seconds = 1.8;
+const float look_ahead_time_seconds = 2.25;
 
 // simulation step increment in seconds
 const float look_ahead_resolution_seconds = 0.02;
