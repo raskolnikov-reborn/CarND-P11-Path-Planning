@@ -30,7 +30,7 @@ const float speed_limit_mps = 21.5;
 const float transverse_speed_limit = 1.0;
 
 // Simulation lookahead time
-const float look_ahead_time_seconds = 2.25;
+const float look_ahead_time_seconds = 1.8;
 
 // simulation step increment in seconds
 const float look_ahead_resolution_seconds = 0.02;
@@ -45,7 +45,7 @@ const float tracking_windows =  3.0;
 const double max_distance_to_track_meters = 6945.554;
 
 // min clearance for front and rear. Try to maintain clearance > min
-const float min_clearance = 5.0;
+const float min_clearance = 8.0;
 
 // acceleration_limit 10 m/s^2 as per project rubric
 const float max_permissible_acceleration = 10;
