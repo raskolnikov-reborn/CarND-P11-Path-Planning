@@ -56,6 +56,7 @@ FrameManager::FrameManager(const string& map_file) {
 	map_waypoints_y.pop_back();
 	map_waypoints_dx.pop_back();
 	map_waypoints_dy.pop_back();
+
 }
 
 /** Convert from frenet to world coord
