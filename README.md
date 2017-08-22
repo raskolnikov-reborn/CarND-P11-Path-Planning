@@ -27,6 +27,7 @@ The highway's waypoints loop around so the frenet s value, distance along the ro
 ### Overview 
 
 This was a thoroughly challenging project. The following subsections describe my efforts at arriving at a minimum viable solution.
+![Run for 10 Miles](./run_length.png "Run Length")
 
 #### Waypoint interpolation
 The provided list of sparse waypoints in the csv file are used to create 4 spline definitions and not store the dense waypoints in RAM. These spline definitions are used at every iteration to create the dense waypoints list. This reduces memory usage and by our definition we can directly look up x,y,dx,dy values from the {s,d} frenet pair.
