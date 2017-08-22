@@ -103,8 +103,8 @@ The smooth waypoints are generated using the interpolated spline equations descr
 ## Basic Build Instructions
 
 1. Clone this repo.
-2. Make a build directory: `mkdir build && cd build` (Do this as a sibling of the project directory, not inside the source tree)
-3. Compile: `cmake ../CarND-P11-Path-Planning && make`
+2. run build_project.sh
+3. cd ../build
 4. Run it: `./path_planning`.
 
 
