@@ -104,7 +104,7 @@ The smooth waypoints are generated using the interpolated spline equations descr
 
 1. Clone this repo.
 2. run build_project.sh
-3. cd ../build
+3. cd build
 4. Run it: `./path_planning`.
 
 

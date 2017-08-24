@@ -21,7 +21,7 @@ using namespace std;
 namespace global_params
 {
 // Map file to be read
-const std::string map_filename = "../CarND-P11-Path-Planning/data/highway_map.csv";
+const std::string map_filename = "../data/highway_map.csv";
 
 // speed limit
 const float speed_limit_mps = 21.5;
